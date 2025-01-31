@@ -10,7 +10,6 @@ export const appRoutes: Route[] = [
     component: FullComponent,
     canActivate: [MsalGuard],
     data: { menu: navItems },
-    loadChildren: () =>
-      import('./pages/pages.routes').then((m) => m.remoteRoutes),
+    loadChildren: () => import('./pages/pages.routes').then((m) => m.remoteRoutes),
   },
 ];
