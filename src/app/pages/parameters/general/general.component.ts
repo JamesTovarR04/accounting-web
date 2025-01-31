@@ -4,7 +4,7 @@ import { MaterialModule } from '@quarsso/material-pro/material.module';
 @Component({
   standalone: true,
   imports: [ MaterialModule ],
-  selector: 'general-page',
+  selector: 'qss-accounting-general-page',
   template: `<mat-card  appearance="outlined">
     <mat-card-header>
       <mat-card-title>General Account Parameters</mat-card-title>

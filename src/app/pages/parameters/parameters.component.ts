@@ -4,7 +4,7 @@ import { MaterialModule } from '@quarsso/material-pro/material.module';
 
 @Component({
   imports: [ MaterialModule, RouterModule ],
-  selector: 'parameters',
+  selector: 'qss-accounting-parameters',
   template: `<mat-card  appearance="outlined">
     <mat-card-header>
       <mat-card-title>Accounting Parameters</mat-card-title>

@@ -3,7 +3,7 @@ import { MaterialModule } from '@quarsso/material-pro/material.module';
 
 @Component({
   imports: [ MaterialModule ],
-  selector: 'reports',
+  selector: 'qss-accounting-reports',
   template: `<mat-card  appearance="outlined">
     <mat-card-header>
       <mat-card-title>Accounting Reports</mat-card-title>
